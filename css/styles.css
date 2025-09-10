@@ -1,8 +1,53 @@
-p {
-width: 30px;
+body {
+  background-color: lightgrey;
+  margin: auto;
 }
-img {
-width: 130px;
+/* see rida on body jaoks */
+
+#content {
+  font-size: 60px;
+  align-items: center;
+  justify-items: center;
+}
+
+/*Minu veebi värvi sketch võiks olla
+must,valge ning sinine ja kollane,
+liseks see rida on maini jaoks
+*/
+head {
+  font-size: 20px;
+  
+}
+/* See rida on headi jaoks*/
+
+header {
+    align-self: center;
+    width: 900px;
+}
+
+p {
+  width: 500px;
+
+}
+/*määrab pikkuse*/
+
+body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; }
+h1 { font-size: 2rem; margin-bottom: 1rem; }
+h2 { font-size: 1.5rem; margin: 1rem 0 0.5rem; }
+p { margin-bottom: 1rem; }
+.small { font-size: 0.875rem; color: gray; }
+
+/* tüpograafiasüsteemi lõigud, määrab kõigil teksti suuruse ja stiili*/
+
+button:hover, button:focus {
+outline: 2px solid rgb(255, 230, 4);
+background: rgb(20, 20, 2);
+}
+
+nav {
+   display: flex;
+   justify-content: space-between; /* jaotab elemendid ühtlaselt */
+   align-items: center; /* joondab vertikaalselt keskele */
 }
 
 
